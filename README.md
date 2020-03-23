@@ -51,4 +51,6 @@ heroku run sequelize db:migrate
 heroku run sequelize db:seed:all
 ```
 
+
+(Routes for Reddit Express Postgres lesson)
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9c1cd960ef32a75fec0d)
