@@ -8,6 +8,7 @@ const cors = require('cors')
 
 // import routes 
 const redditRouter = require('./routes/reddit')
+const favoritesRouter = require('./routes/favorites')
 
 const app = express()
 // Allow Cors
@@ -17,6 +18,7 @@ app.use(express.json())
 // ALLOW CORS
 
 app.use(redditRouter)
+app.use(favoritesRouter)
 
 
 // Sync database and spin up server
