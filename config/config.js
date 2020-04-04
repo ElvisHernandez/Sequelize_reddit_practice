@@ -2,18 +2,18 @@
 
 module.exports = {
   development: {
-    username: process.env.DB_USERNAME,
-    password: process.env.DB_PASSWORD,
+    username: 'elvis',
+    password: null,
     database: 'database_development',
-    host: process.env.DB_HOST,
+    host: '127.0.0.1',
     dialect: 'postgres',
     operatorsAliases: 0
   },
   test: {
-    username: process.env.DB_USERNAME,
-    password: process.env.DB_PASSWORD,
+    username: 'elvis',
+    password: null,
     database: 'database_test',
-    host: process.env.DB_HOST,
+    host: '127.0.0.1',
     dialect: 'postgres',
     operatorsAliases: 0
   },
