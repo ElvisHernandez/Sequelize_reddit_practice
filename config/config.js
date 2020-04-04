@@ -1,9 +1,9 @@
-require('dotenv').config()
+console.log(require('dotenv').config())
 
 module.exports = {
   development: {
     username: 'elvis',
-    password: null,
+    password: 'NEVER_STOP_LEARNING',
     database: 'database_development',
     host: '127.0.0.1',
     dialect: 'postgres',
@@ -11,7 +11,7 @@ module.exports = {
   },
   test: {
     username: 'elvis',
-    password: null,
+    password: 'NEVER_STOP_LEARNING',
     database: 'database_test',
     host: '127.0.0.1',
     dialect: 'postgres',
