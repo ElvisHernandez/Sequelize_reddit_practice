@@ -11,6 +11,9 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      thumbnail: {
+        type: Sequelize.STRING
+      },
       upvotes: {
         type: Sequelize.INTEGER
       },
